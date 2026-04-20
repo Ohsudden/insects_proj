@@ -1,0 +1,5 @@
+detection_id,cluster,mosaic_file,mosaic_row,mosaic_col,mosaic_x,mosaic_y,thumb_size,frame,bbox_x,bbox_y,bbox_w,bbox_h,quality_score,solidity,eccentricity
+0,0,cluster_00_mosaic.png,0,0,0,40,90,RCNHSha_20250510_024016_IMG6,2961,1139,90,57,0.4021,0.8094,0.9058
+2,0,cluster_00_mosaic.png,0,1,90,40,90,RCNHSha_20250511_233901_IMG1,2775,1115,59,37,0.3947,0.9171,0.8623
+1,0,cluster_00_mosaic.png,0,2,180,40,90,RCNHSha_20250511_004031_IMG7,2191,1626,66,90,0.3913,0.8359,0.8996
+3,0,cluster_00_mosaic.png,0,3,270,40,90,RCNHSha_20250515_031002_IMG5,1246,1539,55,56,0.3899,0.9724,0.8655

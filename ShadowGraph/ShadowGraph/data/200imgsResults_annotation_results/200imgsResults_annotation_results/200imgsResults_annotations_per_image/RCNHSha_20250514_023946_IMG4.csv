@@ -1,0 +1,27 @@
+detection_id,bbox_x,bbox_y,bbox_w,bbox_h,original_cluster,final_class,class_name,status
+2327,1398,564,66,45,2,2,Detritus / Unsharp Organisms,confirmed
+2326,1539,435,60,43,2,2,Detritus / Unsharp Organisms,confirmed
+2329,1833,730,62,152,7,7,Detritus / Unsharp Organisms,confirmed
+2342,1374,2268,44,81,7,7,Detritus / Unsharp Organisms,confirmed
+2324,1971,326,40,56,7,7,Detritus / Unsharp Organisms,confirmed
+2341,1052,2227,45,54,7,7,Detritus / Unsharp Organisms,confirmed
+2330,2139,819,37,109,7,7,Detritus / Unsharp Organisms,confirmed
+2331,1104,946,33,66,7,7,Detritus / Unsharp Organisms,confirmed
+2340,940,1978,49,60,7,7,Detritus / Unsharp Organisms,confirmed
+2325,2735,398,46,56,7,7,Detritus / Unsharp Organisms,confirmed
+2346,1821,2604,37,74,7,7,Detritus / Unsharp Organisms,confirmed
+2345,1560,2569,36,96,7,7,Detritus / Unsharp Organisms,confirmed
+2328,1697,667,49,60,7,7,Detritus / Unsharp Organisms,confirmed
+2338,1068,1737,53,123,8,8,Detritus / Unsharp Organisms,confirmed
+2322,2469,302,63,81,8,8,Detritus / Unsharp Organisms,confirmed
+2335,1026,1407,41,66,8,8,Detritus / Unsharp Organisms,confirmed
+2337,2526,1650,49,63,8,8,Detritus / Unsharp Organisms,confirmed
+2343,2281,2304,76,82,14,14,Detritus / Unsharp Organisms,confirmed
+2323,2115,323,42,51,14,14,Detritus / Unsharp Organisms,confirmed
+2321,2009,288,77,274,17,17,Detritus / Unsharp Organisms,confirmed
+2334,2733,1218,86,248,17,17,Detritus / Unsharp Organisms,confirmed
+2332,2103,1129,97,107,19,19,Detritus / Unsharp Organisms,confirmed
+2336,1421,1488,76,139,47,47,Detritus / Unsharp Organisms,confirmed
+2333,2915,1157,99,95,49,49,Detritus / Unsharp Organisms,confirmed
+2339,2137,1860,74,63,49,49,Detritus / Unsharp Organisms,confirmed
+2344,1496,2376,137,81,50,50,Copepoda,confirmed

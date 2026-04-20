@@ -1,0 +1,178 @@
+{
+  "version": "subcluster_1.0",
+  "parent_class": "Cladoceramorpha",
+  "timestamp": "2026-03-20 14:06:05",
+  "parameters": {
+    "pca_components": 64,
+    "umap_dim": 32,
+    "umap_neighbors": 30,
+    "purity_threshold": 0.55,
+    "grow_threshold": 0.3,
+    "iterations": 6,
+    "max_clusters": null
+  },
+  "results": {
+    "total_detections": 420,
+    "n_subclusters": 17,
+    "n_unassigned": 0,
+    "feature_dim": 512
+  },
+  "cluster_distribution": {
+    "0": 24,
+    "1": 31,
+    "2": 27,
+    "3": 53,
+    "4": 25,
+    "5": 41,
+    "6": 37,
+    "7": 40,
+    "8": 31,
+    "9": 21,
+    "10": 17,
+    "11": 21,
+    "12": 11,
+    "13": 13,
+    "14": 15,
+    "15": 6,
+    "16": 7
+  },
+  "cluster_statistics": {
+    "0": {
+      "count": 24,
+      "quality_mean": 0.37270416666666667,
+      "quality_std": 0.023406756132341125,
+      "solidity_mean": 0.7550875000000001,
+      "eccentricity_mean": 0.6001083333333334,
+      "focus_score_mean": 39.4522375
+    },
+    "1": {
+      "count": 31,
+      "quality_mean": 0.37121935483870955,
+      "quality_std": 0.0320800754097219,
+      "solidity_mean": 0.8046225806451613,
+      "eccentricity_mean": 0.7103709677419353,
+      "focus_score_mean": 34.23106774193549
+    },
+    "2": {
+      "count": 27,
+      "quality_mean": 0.360837037037037,
+      "quality_std": 0.028196665788550616,
+      "solidity_mean": 0.8229851851851853,
+      "eccentricity_mean": 0.6609407407407407,
+      "focus_score_mean": 40.78281481481481
+    },
+    "3": {
+      "count": 53,
+      "quality_mean": 0.37471320754716986,
+      "quality_std": 0.042470176162768006,
+      "solidity_mean": 0.5452490566037737,
+      "eccentricity_mean": 0.8596528301886792,
+      "focus_score_mean": 25.086154716981135
+    },
+    "4": {
+      "count": 25,
+      "quality_mean": 0.35641999999999996,
+      "quality_std": 0.03780008465598986,
+      "solidity_mean": 0.485556,
+      "eccentricity_mean": 0.806828,
+      "focus_score_mean": 28.968384
+    },
+    "5": {
+      "count": 41,
+      "quality_mean": 0.3867243902439024,
+      "quality_std": 0.0414690703459808,
+      "solidity_mean": 0.5594585365853657,
+      "eccentricity_mean": 0.8350560975609755,
+      "focus_score_mean": 26.515839024390246
+    },
+    "6": {
+      "count": 37,
+      "quality_mean": 0.35636486486486485,
+      "quality_std": 0.02354179969946747,
+      "solidity_mean": 0.4697189189189189,
+      "eccentricity_mean": 0.7237324324324323,
+      "focus_score_mean": 24.693508108108105
+    },
+    "7": {
+      "count": 40,
+      "quality_mean": 0.38428000000000007,
+      "quality_std": 0.03915088249324656,
+      "solidity_mean": 0.5343424999999999,
+      "eccentricity_mean": 0.81545,
+      "focus_score_mean": 24.1577975
+    },
+    "8": {
+      "count": 31,
+      "quality_mean": 0.34400000000000003,
+      "quality_std": 0.03867980218116676,
+      "solidity_mean": 0.47053225806451615,
+      "eccentricity_mean": 0.788025806451613,
+      "focus_score_mean": 23.446174193548387
+    },
+    "9": {
+      "count": 21,
+      "quality_mean": 0.3488714285714285,
+      "quality_std": 0.02296612708310391,
+      "solidity_mean": 0.4539714285714286,
+      "eccentricity_mean": 0.7710571428571429,
+      "focus_score_mean": 17.283257142857142
+    },
+    "10": {
+      "count": 17,
+      "quality_mean": 0.37234705882352936,
+      "quality_std": 0.02695122211890255,
+      "solidity_mean": 0.5218470588235294,
+      "eccentricity_mean": 0.7631176470588235,
+      "focus_score_mean": 23.605776470588236
+    },
+    "11": {
+      "count": 21,
+      "quality_mean": 0.3217380952380952,
+      "quality_std": 0.03911190874779307,
+      "solidity_mean": 0.4556285714285714,
+      "eccentricity_mean": 0.7515190476190476,
+      "focus_score_mean": 26.64090476190476
+    },
+    "12": {
+      "count": 11,
+      "quality_mean": 0.3469636363636364,
+      "quality_std": 0.025908028686359427,
+      "solidity_mean": 0.4335363636363636,
+      "eccentricity_mean": 0.7386454545454545,
+      "focus_score_mean": 16.891336363636363
+    },
+    "13": {
+      "count": 13,
+      "quality_mean": 0.34425384615384613,
+      "quality_std": 0.014221685250382483,
+      "solidity_mean": 0.39580000000000004,
+      "eccentricity_mean": 0.7576846153846154,
+      "focus_score_mean": 25.514776923076923
+    },
+    "14": {
+      "count": 15,
+      "quality_mean": 0.40753999999999996,
+      "quality_std": 0.04707231033208377,
+      "solidity_mean": 0.6103733333333334,
+      "eccentricity_mean": 0.8023133333333333,
+      "focus_score_mean": 27.905653333333337
+    },
+    "15": {
+      "count": 6,
+      "quality_mean": 0.3807666666666667,
+      "quality_std": 0.030555886866890675,
+      "solidity_mean": 0.62785,
+      "eccentricity_mean": 0.7415166666666666,
+      "focus_score_mean": 42.780316666666664
+    },
+    "16": {
+      "count": 7,
+      "quality_mean": 0.35792857142857143,
+      "quality_std": 0.028050195532077053,
+      "solidity_mean": 0.48930000000000007,
+      "eccentricity_mean": 0.7275714285714285,
+      "focus_score_mean": 23.238400000000002
+    }
+  },
+  "elapsed_s": 3.3
+}

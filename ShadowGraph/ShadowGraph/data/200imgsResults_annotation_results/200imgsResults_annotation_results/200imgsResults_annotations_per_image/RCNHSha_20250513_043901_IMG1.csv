@@ -1,0 +1,40 @@
+detection_id,bbox_x,bbox_y,bbox_w,bbox_h,original_cluster,final_class,class_name,status
+2005,1424,1711,150,198,0,0,Cladoceramorpha,confirmed
+1992,766,987,135,179,0,0,Cladoceramorpha,confirmed
+2017,1781,2298,58,39,2,2,Detritus / Unsharp Organisms,confirmed
+1982,2435,256,129,71,2,2,Detritus / Unsharp Organisms,confirmed
+1984,2703,409,67,47,2,2,Detritus / Unsharp Organisms,confirmed
+2008,3014,1775,47,39,3,3,Detritus / Unsharp Organisms,confirmed
+1990,1845,835,50,46,3,3,Detritus / Unsharp Organisms,confirmed
+1989,1497,820,57,54,3,3,Detritus / Unsharp Organisms,confirmed
+2009,1148,1788,73,74,5,5,Detritus / Unsharp Organisms,confirmed
+2003,1222,1565,57,56,5,5,Detritus / Unsharp Organisms,confirmed
+1991,1321,973,48,40,6,6,Detritus / Unsharp Organisms,confirmed
+2015,1858,2191,73,98,7,7,Detritus / Unsharp Organisms,confirmed
+1999,2778,1307,56,154,7,7,Detritus / Unsharp Organisms,confirmed
+1985,1226,418,44,58,7,7,Detritus / Unsharp Organisms,confirmed
+1981,1950,215,55,127,7,7,Detritus / Unsharp Organisms,confirmed
+2019,1607,2722,72,84,7,7,Detritus / Unsharp Organisms,confirmed
+1987,1404,694,38,115,8,8,Detritus / Unsharp Organisms,confirmed
+1995,2948,1174,51,81,8,8,Detritus / Unsharp Organisms,confirmed
+2000,1324,1414,32,81,8,8,Detritus / Unsharp Organisms,confirmed
+2002,2383,1563,79,69,10,0,Cladoceramorpha,relabelled
+2012,2693,1903,67,149,14,14,Detritus / Unsharp Organisms,confirmed
+1986,1621,562,46,60,14,14,Detritus / Unsharp Organisms,confirmed
+2001,1433,1505,64,155,16,16,Detritus / Unsharp Organisms,confirmed
+1988,1043,756,24,105,17,17,Detritus / Unsharp Organisms,confirmed
+1983,2446,351,66,90,23,23,Cladoceramorpha,confirmed
+2014,3018,2055,45,47,35,35,Cladoceramorpha,confirmed
+2016,1378,2285,39,53,37,37,Detritus / Unsharp Organisms,confirmed
+1993,2031,1064,47,49,42,42,Cladoceramorpha,confirmed
+1997,2007,1187,55,55,42,42,Cladoceramorpha,confirmed
+2013,1714,1974,68,98,49,0,Cladoceramorpha,relabelled
+2006,2975,1713,70,42,49,49,Detritus / Unsharp Organisms,confirmed
+2004,1027,1617,39,56,49,49,Detritus / Unsharp Organisms,confirmed
+2018,1217,2473,80,67,49,49,Detritus / Unsharp Organisms,confirmed
+1994,962,1146,108,145,49,49,Detritus / Unsharp Organisms,confirmed
+2011,1984,1862,61,74,49,49,Detritus / Unsharp Organisms,confirmed
+1998,790,1260,84,61,49,49,Detritus / Unsharp Organisms,confirmed
+1996,2167,1176,61,44,49,49,Detritus / Unsharp Organisms,confirmed
+2010,1098,1790,48,74,49,49,Detritus / Unsharp Organisms,confirmed
+2007,2089,1758,280,273,49,49,Detritus / Unsharp Organisms,confirmed

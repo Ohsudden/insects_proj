@@ -1,0 +1,2 @@
+object_id,original_detection_id,parent_class,frame,x,y,w,h,area,solidity,eccentricity,focus_score,quality_score,cluster
+0,5655,Plant_or_Algae,RCNHSha_20250516_031002_IMG5,2838,1767,203,108,5038,0.8715,0.993,33.9706,0.4954,0

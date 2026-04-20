@@ -1,0 +1,13 @@
+detection_id,bbox_x,bbox_y,bbox_w,bbox_h,original_cluster,final_class,class_name,status
+1054,1755,264,60,113,7,7,Detritus / Unsharp Organisms,confirmed
+1063,2346,2499,55,81,7,7,Detritus / Unsharp Organisms,confirmed
+1056,629,1570,78,84,7,7,Detritus / Unsharp Organisms,confirmed
+1057,1475,1586,25,76,8,8,Detritus / Unsharp Organisms,confirmed
+1060,1537,1941,64,114,14,14,Detritus / Unsharp Organisms,confirmed
+1062,1414,2378,51,57,14,14,Detritus / Unsharp Organisms,confirmed
+1055,2870,1114,69,85,29,29,Detritus / Unsharp Organisms,confirmed
+1061,1372,2258,41,91,29,29,Detritus / Unsharp Organisms,confirmed
+1058,1258,1783,63,83,47,47,Detritus / Unsharp Organisms,confirmed
+1059,816,1880,130,150,49,49,Detritus / Unsharp Organisms,confirmed
+1053,2493,194,67,120,49,49,Detritus / Unsharp Organisms,confirmed
+1052,1779,129,172,168,49,49,Detritus / Unsharp Organisms,confirmed

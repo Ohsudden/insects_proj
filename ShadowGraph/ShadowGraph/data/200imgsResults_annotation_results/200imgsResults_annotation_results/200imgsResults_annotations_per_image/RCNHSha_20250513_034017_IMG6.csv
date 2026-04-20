@@ -1,0 +1,35 @@
+detection_id,bbox_x,bbox_y,bbox_w,bbox_h,original_cluster,final_class,class_name,status
+1884,1259,1288,211,225,0,0,Cladoceramorpha,confirmed
+1874,2817,543,187,271,0,2,Detritus / Unsharp Organisms,relabelled
+1886,2944,1352,140,63,2,2,Detritus / Unsharp Organisms,confirmed
+1901,1379,2313,64,37,2,2,Detritus / Unsharp Organisms,confirmed
+1897,3034,1935,54,33,2,2,Detritus / Unsharp Organisms,confirmed
+1885,1802,1300,77,47,2,2,Detritus / Unsharp Organisms,confirmed
+1871,2409,300,66,32,2,2,Detritus / Unsharp Organisms,confirmed
+1891,1539,1496,51,44,3,3,Detritus / Unsharp Organisms,confirmed
+1873,1552,416,60,54,3,3,Detritus / Unsharp Organisms,confirmed
+1889,2783,1420,161,93,4,4,Detritus / Unsharp Organisms,confirmed
+1883,2949,1225,104,82,4,4,Detritus / Unsharp Organisms,confirmed
+1896,1102,1844,96,78,4,4,Detritus / Unsharp Organisms,confirmed
+1880,990,937,41,85,7,7,Detritus / Unsharp Organisms,confirmed
+1879,1868,862,70,81,7,7,Detritus / Unsharp Organisms,confirmed
+1875,1362,545,47,52,7,7,Detritus / Unsharp Organisms,confirmed
+1881,1591,1019,68,75,7,7,Detritus / Unsharp Organisms,confirmed
+1887,1013,1379,46,63,7,7,Detritus / Unsharp Organisms,confirmed
+1904,1598,2730,110,114,7,7,Detritus / Unsharp Organisms,confirmed
+1882,2024,1151,42,69,7,7,Detritus / Unsharp Organisms,confirmed
+1878,2618,848,100,92,10,10,Detritus / Unsharp Organisms,confirmed
+1895,2807,1751,117,95,10,10,Detritus / Unsharp Organisms,confirmed
+1892,1438,1583,110,79,11,11,Detritus / Unsharp Organisms,confirmed
+1876,2394,576,101,139,14,14,Detritus / Unsharp Organisms,confirmed
+1893,909,1670,117,141,14,14,Detritus / Unsharp Organisms,confirmed
+1894,1465,1675,69,94,16,16,Detritus / Unsharp Organisms,confirmed
+1877,1410,781,86,102,19,19,Detritus / Unsharp Organisms,confirmed
+1900,2790,2190,255,109,36,2,Detritus / Unsharp Organisms,relabelled
+1903,1717,2711,180,104,36,36,Cladoceramorpha,confirmed
+1902,2321,2360,66,74,40,40,Detritus / Unsharp Organisms,confirmed
+1899,1881,2065,114,152,49,49,Detritus / Unsharp Organisms,confirmed
+1888,1856,1385,97,145,49,49,Detritus / Unsharp Organisms,confirmed
+1898,2766,2062,118,181,49,0,Cladoceramorpha,relabelled
+1890,3059,1451,137,137,49,49,Detritus / Unsharp Organisms,confirmed
+1872,1961,324,172,135,49,49,Detritus / Unsharp Organisms,confirmed

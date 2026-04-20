@@ -1,0 +1,43 @@
+{
+  "version": "subcluster_1.0",
+  "parent_class": "Copepoda",
+  "timestamp": "2026-03-20 14:06:06",
+  "parameters": {
+    "pca_components": 13,
+    "umap_dim": 22,
+    "umap_neighbors": 13,
+    "purity_threshold": 0.55,
+    "grow_threshold": 0.3,
+    "iterations": 6,
+    "max_clusters": null
+  },
+  "results": {
+    "total_detections": 67,
+    "n_subclusters": 2,
+    "n_unassigned": 0,
+    "feature_dim": 512
+  },
+  "cluster_distribution": {
+    "0": 30,
+    "1": 37
+  },
+  "cluster_statistics": {
+    "0": {
+      "count": 30,
+      "quality_mean": 0.34432333333333337,
+      "quality_std": 0.03162724230083229,
+      "solidity_mean": 0.4394333333333334,
+      "eccentricity_mean": 0.8364466666666667,
+      "focus_score_mean": 24.509289999999996
+    },
+    "1": {
+      "count": 37,
+      "quality_mean": 0.3480810810810811,
+      "quality_std": 0.03432126311099238,
+      "solidity_mean": 0.4468216216216216,
+      "eccentricity_mean": 0.8589081081081081,
+      "focus_score_mean": 22.057327027027025
+    }
+  },
+  "elapsed_s": 0.6
+}

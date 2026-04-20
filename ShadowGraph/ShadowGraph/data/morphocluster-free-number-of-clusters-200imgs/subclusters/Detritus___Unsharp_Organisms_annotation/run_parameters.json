@@ -1,0 +1,349 @@
+{
+  "version": "subcluster_1.0",
+  "parent_class": "Detritus / Unsharp Organisms",
+  "timestamp": "2026-03-20 14:06:01",
+  "parameters": {
+    "pca_components": 64,
+    "umap_dim": 32,
+    "umap_neighbors": 30,
+    "purity_threshold": 0.55,
+    "grow_threshold": 0.3,
+    "iterations": 6,
+    "max_clusters": null
+  },
+  "results": {
+    "total_detections": 9077,
+    "n_subclusters": 36,
+    "n_unassigned": 0,
+    "feature_dim": 512
+  },
+  "cluster_distribution": {
+    "0": 159,
+    "1": 565,
+    "2": 497,
+    "3": 262,
+    "4": 355,
+    "5": 342,
+    "6": 231,
+    "7": 771,
+    "8": 754,
+    "9": 171,
+    "10": 295,
+    "11": 182,
+    "12": 251,
+    "13": 511,
+    "14": 294,
+    "15": 158,
+    "16": 317,
+    "17": 184,
+    "18": 447,
+    "19": 538,
+    "20": 323,
+    "21": 61,
+    "22": 87,
+    "23": 61,
+    "24": 94,
+    "25": 102,
+    "26": 113,
+    "27": 48,
+    "28": 169,
+    "29": 129,
+    "30": 65,
+    "31": 202,
+    "32": 103,
+    "33": 116,
+    "34": 72,
+    "35": 48
+  },
+  "cluster_statistics": {
+    "0": {
+      "count": 159,
+      "quality_mean": 0.3255006289308176,
+      "quality_std": 0.052845574833458475,
+      "solidity_mean": 0.7897169811320754,
+      "eccentricity_mean": 0.8249421383647798,
+      "focus_score_mean": 17.262863522012577
+    },
+    "1": {
+      "count": 565,
+      "quality_mean": 0.343441592920354,
+      "quality_std": 0.050335127735889065,
+      "solidity_mean": 0.7424576991150443,
+      "eccentricity_mean": 0.8695173451327433,
+      "focus_score_mean": 16.685604424778763
+    },
+    "2": {
+      "count": 497,
+      "quality_mean": 0.3304162977867203,
+      "quality_std": 0.04531603306882037,
+      "solidity_mean": 0.7559770623742454,
+      "eccentricity_mean": 0.9044879275653923,
+      "focus_score_mean": 13.477800000000002
+    },
+    "3": {
+      "count": 262,
+      "quality_mean": 0.31755381679389316,
+      "quality_std": 0.049687537073132504,
+      "solidity_mean": 0.6768519083969466,
+      "eccentricity_mean": 0.9199904580152671,
+      "focus_score_mean": 16.214463740458015
+    },
+    "4": {
+      "count": 355,
+      "quality_mean": 0.3499304225352113,
+      "quality_std": 0.04261009969005133,
+      "solidity_mean": 0.6935478873239437,
+      "eccentricity_mean": 0.8841025352112676,
+      "focus_score_mean": 18.828298028169012
+    },
+    "5": {
+      "count": 342,
+      "quality_mean": 0.3458327485380117,
+      "quality_std": 0.04621608455281459,
+      "solidity_mean": 0.6778245614035088,
+      "eccentricity_mean": 0.8060271929824561,
+      "focus_score_mean": 22.22296754385965
+    },
+    "6": {
+      "count": 231,
+      "quality_mean": 0.31810476190476195,
+      "quality_std": 0.04575469529814866,
+      "solidity_mean": 0.5721835497835498,
+      "eccentricity_mean": 0.9422458874458873,
+      "focus_score_mean": 19.658019047619046
+    },
+    "7": {
+      "count": 771,
+      "quality_mean": 0.34857302204928664,
+      "quality_std": 0.04814145201270794,
+      "solidity_mean": 0.6480114137483788,
+      "eccentricity_mean": 0.8368400778210117,
+      "focus_score_mean": 20.215254345006485
+    },
+    "8": {
+      "count": 754,
+      "quality_mean": 0.3437648541114059,
+      "quality_std": 0.051816655181094386,
+      "solidity_mean": 0.6215326259946949,
+      "eccentricity_mean": 0.9135062334217507,
+      "focus_score_mean": 17.7915350132626
+    },
+    "9": {
+      "count": 171,
+      "quality_mean": 0.3841491228070176,
+      "quality_std": 0.048274425527905,
+      "solidity_mean": 0.7499777777777777,
+      "eccentricity_mean": 0.7450461988304092,
+      "focus_score_mean": 24.20166023391813
+    },
+    "10": {
+      "count": 295,
+      "quality_mean": 0.38032440677966095,
+      "quality_std": 0.04149992625156553,
+      "solidity_mean": 0.8795179661016947,
+      "eccentricity_mean": 0.7306593220338984,
+      "focus_score_mean": 19.75934711864407
+    },
+    "11": {
+      "count": 182,
+      "quality_mean": 0.3187285714285714,
+      "quality_std": 0.03995771744824107,
+      "solidity_mean": 0.7738505494505494,
+      "eccentricity_mean": 0.772128021978022,
+      "focus_score_mean": 13.683195054945058
+    },
+    "12": {
+      "count": 251,
+      "quality_mean": 0.33519402390438247,
+      "quality_std": 0.034887670685786784,
+      "solidity_mean": 0.7968868525896414,
+      "eccentricity_mean": 0.7610808764940239,
+      "focus_score_mean": 16.995285657370516
+    },
+    "13": {
+      "count": 511,
+      "quality_mean": 0.33378180039138944,
+      "quality_std": 0.03753386939483866,
+      "solidity_mean": 0.7938254403131116,
+      "eccentricity_mean": 0.7518555772994129,
+      "focus_score_mean": 17.648328375733854
+    },
+    "14": {
+      "count": 294,
+      "quality_mean": 0.3659374149659864,
+      "quality_std": 0.05021496675130439,
+      "solidity_mean": 0.6408554421768707,
+      "eccentricity_mean": 0.8103656462585034,
+      "focus_score_mean": 22.281705102040814
+    },
+    "15": {
+      "count": 158,
+      "quality_mean": 0.37282658227848103,
+      "quality_std": 0.02979062042882574,
+      "solidity_mean": 0.9100822784810128,
+      "eccentricity_mean": 0.6519424050632912,
+      "focus_score_mean": 16.464377848101265
+    },
+    "16": {
+      "count": 317,
+      "quality_mean": 0.36937444794952684,
+      "quality_std": 0.04095659790267603,
+      "solidity_mean": 0.8512529968454259,
+      "eccentricity_mean": 0.7159381703470032,
+      "focus_score_mean": 23.63189905362776
+    },
+    "17": {
+      "count": 184,
+      "quality_mean": 0.3264652173913044,
+      "quality_std": 0.036048213291014576,
+      "solidity_mean": 0.7947195652173913,
+      "eccentricity_mean": 0.8185494565217392,
+      "focus_score_mean": 13.487325
+    },
+    "18": {
+      "count": 447,
+      "quality_mean": 0.32842013422818783,
+      "quality_std": 0.03873887048924991,
+      "solidity_mean": 0.7758950782997763,
+      "eccentricity_mean": 0.7581599552572705,
+      "focus_score_mean": 16.00090827740492
+    },
+    "19": {
+      "count": 538,
+      "quality_mean": 0.313085873605948,
+      "quality_std": 0.041032499872639384,
+      "solidity_mean": 0.7187990706319702,
+      "eccentricity_mean": 0.9153369888475836,
+      "focus_score_mean": 13.830900185873606
+    },
+    "20": {
+      "count": 323,
+      "quality_mean": 0.3231312693498452,
+      "quality_std": 0.05168454788154793,
+      "solidity_mean": 0.6610526315789474,
+      "eccentricity_mean": 0.9332157894736843,
+      "focus_score_mean": 16.240297523219816
+    },
+    "21": {
+      "count": 61,
+      "quality_mean": 0.38292459016393454,
+      "quality_std": 0.04907862429344319,
+      "solidity_mean": 0.6627540983606558,
+      "eccentricity_mean": 0.7927147540983606,
+      "focus_score_mean": 22.472967213114757
+    },
+    "22": {
+      "count": 87,
+      "quality_mean": 0.34966321839080466,
+      "quality_std": 0.032532262024036716,
+      "solidity_mean": 0.8388080459770116,
+      "eccentricity_mean": 0.8050264367816092,
+      "focus_score_mean": 15.38872183908046
+    },
+    "23": {
+      "count": 61,
+      "quality_mean": 0.372855737704918,
+      "quality_std": 0.02527958111158298,
+      "solidity_mean": 0.9191196721311474,
+      "eccentricity_mean": 0.708227868852459,
+      "focus_score_mean": 16.85782295081967
+    },
+    "24": {
+      "count": 94,
+      "quality_mean": 0.35444787234042563,
+      "quality_std": 0.035422548800985096,
+      "solidity_mean": 0.8636031914893616,
+      "eccentricity_mean": 0.7326170212765959,
+      "focus_score_mean": 15.938940425531916
+    },
+    "25": {
+      "count": 102,
+      "quality_mean": 0.31474313725490194,
+      "quality_std": 0.04649615314006416,
+      "solidity_mean": 0.6806794117647058,
+      "eccentricity_mean": 0.8433852941176472,
+      "focus_score_mean": 16.79788431372549
+    },
+    "26": {
+      "count": 113,
+      "quality_mean": 0.3548601769911504,
+      "quality_std": 0.03886653937713666,
+      "solidity_mean": 0.5300504424778761,
+      "eccentricity_mean": 0.9728044247787611,
+      "focus_score_mean": 17.395063716814157
+    },
+    "27": {
+      "count": 48,
+      "quality_mean": 0.3263375,
+      "quality_std": 0.04325164074440799,
+      "solidity_mean": 0.7447604166666668,
+      "eccentricity_mean": 0.9321770833333334,
+      "focus_score_mean": 17.990960416666667
+    },
+    "28": {
+      "count": 169,
+      "quality_mean": 0.32256627218934913,
+      "quality_std": 0.048453924783569705,
+      "solidity_mean": 0.6717461538461538,
+      "eccentricity_mean": 0.9356254437869822,
+      "focus_score_mean": 17.182149112426035
+    },
+    "29": {
+      "count": 129,
+      "quality_mean": 0.3204651162790698,
+      "quality_std": 0.04004844866521493,
+      "solidity_mean": 0.7100922480620155,
+      "eccentricity_mean": 0.8403162790697675,
+      "focus_score_mean": 17.777587596899227
+    },
+    "30": {
+      "count": 65,
+      "quality_mean": 0.3430646153846154,
+      "quality_std": 0.03495412127464858,
+      "solidity_mean": 0.7204492307692307,
+      "eccentricity_mean": 0.946463076923077,
+      "focus_score_mean": 15.460758461538461
+    },
+    "31": {
+      "count": 202,
+      "quality_mean": 0.36710099009900987,
+      "quality_std": 0.040361574940690446,
+      "solidity_mean": 0.8218336633663367,
+      "eccentricity_mean": 0.8336722772277226,
+      "focus_score_mean": 18.411244554455443
+    },
+    "32": {
+      "count": 103,
+      "quality_mean": 0.39028058252427184,
+      "quality_std": 0.035679463126300735,
+      "solidity_mean": 0.7797941747572815,
+      "eccentricity_mean": 0.7418310679611649,
+      "focus_score_mean": 21.481969902912624
+    },
+    "33": {
+      "count": 116,
+      "quality_mean": 0.34350775862068966,
+      "quality_std": 0.04293385881687382,
+      "solidity_mean": 0.6905094827586208,
+      "eccentricity_mean": 0.8944517241379311,
+      "focus_score_mean": 19.092968965517244
+    },
+    "34": {
+      "count": 72,
+      "quality_mean": 0.3754486111111111,
+      "quality_std": 0.05849155208008806,
+      "solidity_mean": 0.6940361111111111,
+      "eccentricity_mean": 0.8266444444444444,
+      "focus_score_mean": 18.525497222222224
+    },
+    "35": {
+      "count": 48,
+      "quality_mean": 0.3685229166666666,
+      "quality_std": 0.05632993298261937,
+      "solidity_mean": 0.789675,
+      "eccentricity_mean": 0.8208604166666666,
+      "focus_score_mean": 18.43520625
+    }
+  },
+  "elapsed_s": 28.3
+}

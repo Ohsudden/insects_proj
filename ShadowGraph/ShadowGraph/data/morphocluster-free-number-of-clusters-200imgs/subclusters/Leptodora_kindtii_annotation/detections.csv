@@ -1,0 +1,3 @@
+object_id,original_detection_id,parent_class,frame,x,y,w,h,area,solidity,eccentricity,focus_score,quality_score,cluster
+0,6524,Leptodora kindtii,RCNHSha_20250921_222019_IMG3,886,1814,352,176,13320,0.3497,0.9597,21.8916,0.3268,0
+1,7420,Leptodora kindtii,RCNHSha_20250922_002134_IMG10,1049,1595,493,466,37632,0.2822,0.5438,29.3048,0.314,0

@@ -1,0 +1,23 @@
+detection_id,bbox_x,bbox_y,bbox_w,bbox_h,original_cluster,final_class,class_name,status
+324,2001,483,44,69,0,2,Detritus / Unsharp Organisms,relabelled
+325,2842,692,177,183,0,0,Cladoceramorpha,confirmed
+327,2404,908,219,190,0,0,Cladoceramorpha,confirmed
+339,2518,2333,183,245,0,0,Cladoceramorpha,confirmed
+341,2207,2710,148,53,2,2,Detritus / Unsharp Organisms,confirmed
+320,2060,250,120,33,2,2,Detritus / Unsharp Organisms,confirmed
+330,1954,1427,50,42,6,6,Detritus / Unsharp Organisms,confirmed
+321,2484,360,61,134,7,7,Detritus / Unsharp Organisms,confirmed
+335,2688,1696,74,77,7,7,Detritus / Unsharp Organisms,confirmed
+336,2915,1963,49,87,8,8,Detritus / Unsharp Organisms,confirmed
+328,2901,1052,58,48,10,10,Detritus / Unsharp Organisms,confirmed
+338,2980,2200,64,60,10,10,Detritus / Unsharp Organisms,confirmed
+329,1283,1354,32,57,14,14,Detritus / Unsharp Organisms,confirmed
+326,2079,821,55,61,14,14,Detritus / Unsharp Organisms,confirmed
+331,1840,1549,50,53,23,23,Cladoceramorpha,confirmed
+333,3301,1646,41,50,23,23,Cladoceramorpha,confirmed
+337,2348,2130,135,147,26,26,Cladoceramorpha,confirmed
+334,2853,1683,48,63,35,35,Cladoceramorpha,confirmed
+323,2504,448,87,131,43,43,Cladoceramorpha,confirmed
+322,2050,426,82,152,49,49,Detritus / Unsharp Organisms,confirmed
+340,2084,2532,136,203,49,0,Cladoceramorpha,relabelled
+332,1390,1646,206,195,49,49,Detritus / Unsharp Organisms,confirmed

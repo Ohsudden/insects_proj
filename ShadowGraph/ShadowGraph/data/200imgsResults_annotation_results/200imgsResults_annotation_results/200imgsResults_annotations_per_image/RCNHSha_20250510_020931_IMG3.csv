@@ -1,0 +1,32 @@
+detection_id,bbox_x,bbox_y,bbox_w,bbox_h,original_cluster,final_class,class_name,status
+183,2701,2351,80,43,2,2,Detritus / Unsharp Organisms,confirmed
+157,1527,335,94,48,2,2,Detritus / Unsharp Organisms,confirmed
+168,889,1226,57,42,2,2,Detritus / Unsharp Organisms,confirmed
+171,1991,1366,63,39,2,2,Detritus / Unsharp Organisms,confirmed
+165,1887,1020,179,157,2,2,Detritus / Unsharp Organisms,confirmed
+187,2169,2598,60,37,2,2,Detritus / Unsharp Organisms,confirmed
+160,1174,480,56,44,2,2,Detritus / Unsharp Organisms,confirmed
+164,1335,928,59,53,3,3,Detritus / Unsharp Organisms,confirmed
+163,1585,912,55,53,3,3,Detritus / Unsharp Organisms,confirmed
+169,2474,1275,63,61,3,3,Detritus / Unsharp Organisms,confirmed
+162,2600,664,52,39,6,6,Detritus / Unsharp Organisms,confirmed
+185,1701,2465,54,50,6,6,Detritus / Unsharp Organisms,confirmed
+166,775,1117,71,115,7,7,Detritus / Unsharp Organisms,confirmed
+181,2323,1999,50,64,7,7,Detritus / Unsharp Organisms,confirmed
+186,1795,2542,65,69,7,7,Detritus / Unsharp Organisms,confirmed
+175,1047,1639,50,54,7,7,Detritus / Unsharp Organisms,confirmed
+184,2730,2443,57,68,7,7,Detritus / Unsharp Organisms,confirmed
+182,1012,2197,39,71,7,7,Detritus / Unsharp Organisms,confirmed
+178,1273,1965,41,47,7,7,Detritus / Unsharp Organisms,confirmed
+161,1168,552,37,45,7,7,Detritus / Unsharp Organisms,confirmed
+159,2626,473,37,99,8,8,Detritus / Unsharp Organisms,confirmed
+177,1997,1887,72,91,8,8,Detritus / Unsharp Organisms,confirmed
+180,1490,1988,52,50,10,10,Detritus / Unsharp Organisms,confirmed
+167,1543,1209,61,66,14,14,Detritus / Unsharp Organisms,confirmed
+170,1916,1281,39,46,14,14,Detritus / Unsharp Organisms,confirmed
+172,2832,1524,54,53,21,0,Cladoceramorpha,relabelled
+176,2239,1831,199,211,43,43,Cladoceramorpha,confirmed
+179,1635,1985,60,51,49,49,Detritus / Unsharp Organisms,confirmed
+158,2550,368,45,42,49,49,Detritus / Unsharp Organisms,confirmed
+173,2510,1572,56,55,49,49,Detritus / Unsharp Organisms,confirmed
+174,1466,1627,48,52,49,49,Detritus / Unsharp Organisms,confirmed

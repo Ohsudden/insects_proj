@@ -1,0 +1,28 @@
+{
+  "version": "subcluster_1.0",
+  "parent_class": "Plant_or_Algae",
+  "timestamp": "2026-03-20 14:06:06",
+  "parameters": {
+    "note": "pass-through, no sub-clustering (N too small)"
+  },
+  "results": {
+    "total_detections": 1,
+    "n_subclusters": 1,
+    "n_unassigned": 0,
+    "feature_dim": 512
+  },
+  "cluster_distribution": {
+    "0": 1
+  },
+  "cluster_statistics": {
+    "0": {
+      "count": 1,
+      "quality_mean": 0.4954,
+      "quality_std": 0.0,
+      "solidity_mean": 0.8715,
+      "eccentricity_mean": 0.993,
+      "focus_score_mean": 33.9706
+    }
+  },
+  "elapsed_s": 0.0
+}

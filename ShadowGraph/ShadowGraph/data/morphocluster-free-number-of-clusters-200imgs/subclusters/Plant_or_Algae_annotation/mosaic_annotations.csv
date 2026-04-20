@@ -1,0 +1,2 @@
+detection_id,cluster,mosaic_file,mosaic_row,mosaic_col,mosaic_x,mosaic_y,thumb_size,frame,bbox_x,bbox_y,bbox_w,bbox_h,quality_score,solidity,eccentricity
+0,0,cluster_00_mosaic.png,0,0,0,40,90,RCNHSha_20250516_031002_IMG5,2838,1767,203,108,0.4954,0.8715,0.993

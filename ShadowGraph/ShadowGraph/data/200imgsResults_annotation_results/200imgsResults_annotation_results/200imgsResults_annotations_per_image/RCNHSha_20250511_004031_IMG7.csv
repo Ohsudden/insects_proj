@@ -1,0 +1,6 @@
+detection_id,bbox_x,bbox_y,bbox_w,bbox_h,original_cluster,final_class,class_name,status
+291,830,1387,79,55,6,6,Detritus / Unsharp Organisms,confirmed
+290,1139,836,50,52,7,7,Detritus / Unsharp Organisms,confirmed
+294,1012,2051,60,70,7,7,Detritus / Unsharp Organisms,confirmed
+293,2916,1964,40,87,8,8,Detritus / Unsharp Organisms,confirmed
+292,2191,1626,66,90,49,1002,Rotifera,relabelled

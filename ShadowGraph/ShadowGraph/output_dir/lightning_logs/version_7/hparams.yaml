@@ -1,0 +1,6 @@
+lr: 0.001
+model: VGG
+num_classes: 6
+task: multiclass
+type: CNN_based
+w2_decay: 0.01

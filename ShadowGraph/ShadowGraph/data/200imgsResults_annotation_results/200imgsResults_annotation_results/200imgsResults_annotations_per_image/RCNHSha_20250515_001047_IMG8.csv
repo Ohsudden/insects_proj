@@ -1,0 +1,98 @@
+detection_id,bbox_x,bbox_y,bbox_w,bbox_h,original_cluster,final_class,class_name,status
+3083,2194,2016,114,199,0,0,Cladoceramorpha,confirmed
+3033,2275,785,144,167,0,0,Cladoceramorpha,confirmed
+3037,2579,842,185,211,0,0,Cladoceramorpha,confirmed
+3026,1575,614,154,131,0,0,Cladoceramorpha,confirmed
+3073,2121,1754,114,155,0,0,Cladoceramorpha,confirmed
+3020,2756,560,119,92,2,2,Detritus / Unsharp Organisms,confirmed
+3071,786,1704,93,61,2,2,Detritus / Unsharp Organisms,confirmed
+3057,901,1437,63,54,2,2,Detritus / Unsharp Organisms,confirmed
+3099,2632,2618,96,71,2,2,Detritus / Unsharp Organisms,confirmed
+3051,1635,1226,93,64,2,2,Detritus / Unsharp Organisms,confirmed
+3044,1932,1114,173,77,2,2,Detritus / Unsharp Organisms,confirmed
+3012,2202,248,215,105,2,2,Detritus / Unsharp Organisms,confirmed
+3027,1872,623,69,34,2,2,Detritus / Unsharp Organisms,confirmed
+3047,1923,1200,74,25,2,2,Detritus / Unsharp Organisms,confirmed
+3010,2243,192,67,32,2,2,Detritus / Unsharp Organisms,confirmed
+3060,2754,1495,84,51,2,2,Detritus / Unsharp Organisms,confirmed
+3095,2260,2484,164,60,2,2,Detritus / Unsharp Organisms,confirmed
+3024,1982,597,82,39,2,2,Detritus / Unsharp Organisms,confirmed
+3056,1313,1409,69,48,2,2,Detritus / Unsharp Organisms,confirmed
+3055,1777,1365,80,30,2,2,Detritus / Unsharp Organisms,confirmed
+3079,2137,1937,93,55,2,2,Detritus / Unsharp Organisms,confirmed
+3017,2831,413,175,65,2,2,Detritus / Unsharp Organisms,confirmed
+3092,1822,2270,58,48,3,3,Detritus / Unsharp Organisms,confirmed
+3042,2557,1061,65,57,3,3,Detritus / Unsharp Organisms,confirmed
+3029,2977,725,55,45,3,3,Detritus / Unsharp Organisms,confirmed
+3087,1140,2151,91,79,3,3,Detritus / Unsharp Organisms,confirmed
+3103,1981,2753,71,62,3,3,Detritus / Unsharp Organisms,confirmed
+3097,2038,2566,59,48,3,3,Detritus / Unsharp Organisms,confirmed
+3104,2251,2817,69,58,3,3,Detritus / Unsharp Organisms,confirmed
+3075,2655,1844,133,88,4,4,Detritus / Unsharp Organisms,confirmed
+3054,3016,1323,158,117,4,4,Detritus / Unsharp Organisms,confirmed
+3072,2812,1749,133,91,4,4,Detritus / Unsharp Organisms,confirmed
+3077,1269,1905,55,54,6,6,Detritus / Unsharp Organisms,confirmed
+3028,998,691,79,99,7,7,Detritus / Unsharp Organisms,confirmed
+3052,2802,1235,70,157,7,7,Detritus / Unsharp Organisms,confirmed
+3025,1279,611,57,89,7,7,Detritus / Unsharp Organisms,confirmed
+3061,3047,1498,70,75,7,7,Detritus / Unsharp Organisms,confirmed
+3030,1874,727,92,150,7,7,Detritus / Unsharp Organisms,confirmed
+3065,798,1584,56,112,7,7,Detritus / Unsharp Organisms,confirmed
+3068,2579,1664,69,143,7,7,Detritus / Unsharp Organisms,confirmed
+3021,2375,582,37,52,7,7,Detritus / Unsharp Organisms,confirmed
+3011,2651,223,43,59,7,7,Detritus / Unsharp Organisms,confirmed
+3040,2509,1050,28,60,7,7,Detritus / Unsharp Organisms,confirmed
+3086,1059,2126,65,67,7,7,Detritus / Unsharp Organisms,confirmed
+3093,1216,2302,52,54,7,7,Detritus / Unsharp Organisms,confirmed
+3080,2820,1984,41,48,7,7,Detritus / Unsharp Organisms,confirmed
+3014,1545,386,48,86,7,7,Detritus / Unsharp Organisms,confirmed
+3059,1541,1480,49,62,7,7,Detritus / Unsharp Organisms,confirmed
+3063,1339,1529,47,62,7,7,Detritus / Unsharp Organisms,confirmed
+3101,1610,2693,52,85,7,7,Detritus / Unsharp Organisms,confirmed
+3008,1914,93,118,120,7,7,Detritus / Unsharp Organisms,confirmed
+3070,649,1703,70,94,7,7,Detritus / Unsharp Organisms,confirmed
+3016,1144,411,60,108,7,7,Detritus / Unsharp Organisms,confirmed
+3046,2556,1186,33,84,7,7,Detritus / Unsharp Organisms,confirmed
+3078,883,1910,57,64,7,7,Detritus / Unsharp Organisms,confirmed
+3076,2511,1902,58,64,7,7,Detritus / Unsharp Organisms,confirmed
+3018,2069,425,61,65,7,7,Detritus / Unsharp Organisms,confirmed
+3100,1292,2638,44,104,7,7,Detritus / Unsharp Organisms,confirmed
+3096,1107,2511,59,101,7,7,Detritus / Unsharp Organisms,confirmed
+3098,1740,2577,55,81,7,7,Detritus / Unsharp Organisms,confirmed
+3094,1301,2332,73,161,8,8,Detritus / Unsharp Organisms,confirmed
+3034,1151,812,48,99,8,8,Detritus / Unsharp Organisms,confirmed
+3031,2660,770,83,71,10,10,Detritus / Unsharp Organisms,confirmed
+3013,1572,264,34,59,14,14,Detritus / Unsharp Organisms,confirmed
+3062,1425,1512,71,200,16,16,Detritus / Unsharp Organisms,confirmed
+3041,932,1061,149,168,16,16,Detritus / Unsharp Organisms,confirmed
+3090,1379,2238,73,110,16,16,Detritus / Unsharp Organisms,confirmed
+3019,2644,510,44,73,16,16,Detritus / Unsharp Organisms,unlabeled
+3032,1625,774,109,177,18,0,Cladoceramorpha,relabelled
+3023,2283,590,51,56,23,23,Cladoceramorpha,confirmed
+3074,1341,1773,149,158,26,26,Cladoceramorpha,confirmed
+3069,1066,1696,122,156,29,29,Detritus / Unsharp Organisms,confirmed
+3039,1166,944,105,171,30,30,Detritus / Unsharp Organisms,confirmed
+3022,2431,582,54,69,34,2,Detritus / Unsharp Organisms,relabelled
+3082,1966,2006,80,127,40,40,Detritus / Unsharp Organisms,confirmed
+3088,2321,2197,122,187,40,40,Detritus / Unsharp Organisms,confirmed
+3043,2961,1111,107,142,41,41,Detritus / Unsharp Organisms,confirmed
+3066,3029,1584,78,82,42,2,Detritus / Unsharp Organisms,relabelled
+3067,1069,1600,120,93,46,0,Cladoceramorpha,relabelled
+3015,1322,396,158,154,46,46,Cladoceramorpha,confirmed
+3009,1969,165,141,193,47,47,Detritus / Unsharp Organisms,confirmed
+3058,1691,1455,72,152,47,47,Detritus / Unsharp Organisms,confirmed
+3050,947,1215,115,136,49,0,Cladoceramorpha,relabelled
+3048,1317,1202,136,136,49,49,Detritus / Unsharp Organisms,confirmed
+3085,3026,2081,137,121,49,49,Detritus / Unsharp Organisms,confirmed
+3038,2742,921,59,54,49,49,Detritus / Unsharp Organisms,confirmed
+3036,2770,839,174,93,49,0,Cladoceramorpha,relabelled
+3081,1639,2003,132,105,49,49,Detritus / Unsharp Organisms,confirmed
+3084,2899,2016,138,143,49,0,Cladoceramorpha,relabelled
+3049,2003,1203,212,157,49,49,Detritus / Unsharp Organisms,confirmed
+3035,2991,813,170,168,49,49,Detritus / Unsharp Organisms,confirmed
+3045,2180,1115,160,159,49,49,Detritus / Unsharp Organisms,confirmed
+3091,1890,2257,361,180,49,49,Detritus / Unsharp Organisms,confirmed
+3064,2183,1548,202,209,49,49,Detritus / Unsharp Organisms,confirmed
+3053,1587,1259,332,148,49,49,Detritus / Unsharp Organisms,confirmed
+3102,2285,2697,250,112,49,50,Copepoda,relabelled
+3089,1447,2198,75,67,49,49,Detritus / Unsharp Organisms,confirmed

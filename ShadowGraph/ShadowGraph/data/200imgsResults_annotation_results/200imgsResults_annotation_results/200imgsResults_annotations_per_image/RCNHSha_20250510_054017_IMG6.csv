@@ -1,0 +1,2 @@
+detection_id,bbox_x,bbox_y,bbox_w,bbox_h,original_cluster,final_class,class_name,status
+265,1098,776,40,57,7,7,Detritus / Unsharp Organisms,confirmed

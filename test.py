@@ -363,7 +363,6 @@ if __name__ == '__main__':
         transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
     ])
 
-    # Pass the transforms into the module
     datamodule = InsectDataModule(
         dataset_path, 
         img_path, 

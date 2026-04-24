@@ -16,10 +16,11 @@ from torchmetrics import F1Score, Recall, Precision, Accuracy
 
 
 class InsectDataset(Dataset):
-    def __init__(self, dataset_path=None, image_path=None, transform=None, dataframe=None):
+    def __init__(self, dataset_path=None, image_path=None, transform=None, dataframe=None, class_to_idx=None):
         super().__init__()
         self.transform = transform
         self.image_path = image_path
+        
         
         if dataframe is not None:
             self.dataset = dataframe.copy()
@@ -37,12 +38,10 @@ class InsectDataset(Dataset):
             if dfs:
                 self.dataset = pd.concat(dfs, ignore_index=True)
                 
-            condition = self.dataset['class_name'] != 'Detritus / Unsharp Organisms'
-            self.dataset = self.dataset[condition]
-
-            labels = LabelEncoder()
-            if 'class_name' in self.dataset.columns:
-                self.dataset['class_classification'] = labels.fit_transform(self.dataset['class_name'])
+            self.dataset['class_name'] = (self.dataset['class_name']
+                                          .str.lower()               
+                                          .str.replace(' ', '_')      )
+            self.dataset['class_classification'] = self.dataset['class_name'].map(class_to_idx)
 
     def __len__(self):
         return self.dataset.shape[0]
@@ -68,7 +67,6 @@ class InsectDataset(Dataset):
         return img, item['class_classification'], item['image_path']
 
 class InsectDataModule(pl.LightningDataModule):
-    # Added separate train and val transforms
     def __init__(self, dataset_path, image_path, train_transform, val_transform, batch_size):
         super().__init__()
         self.dataset_path = dataset_path
@@ -99,16 +97,12 @@ class InsectDataModule(pl.LightningDataModule):
             else:
                 n_val_test = max(2, int(0.28 * n_samples))
                 n_train = n_samples - n_val_test
-                n_val = max(1, int(n_val_test * 0.64))
                 
                 train_list.append(group.iloc[:n_train])
-                val_list.append(group.iloc[n_train:n_train+n_val])
-                test_list.append(group.iloc[n_train+n_val:])
+                val_list.append(group.iloc[n_train:])
         
         train_df = pd.concat(train_list).sample(frac=1, random_state=42).reset_index(drop=True)
-        val_df = pd.concat(val_list).reset_index(drop=True)
-        test_df = pd.concat(test_list).reset_index(drop=True)
-        
+        val_df = pd.concat(val_list).reset_index(drop=True)       
         resampled_dfs = []
         for class_idx, group in train_df.groupby('class_classification'):
             resampled_group = group.sample(n=100, replace=(len(group) < 100), random_state=42)
@@ -118,7 +112,7 @@ class InsectDataModule(pl.LightningDataModule):
 
         self.train_dataset = InsectDataset(image_path=self.image_path, transform=self.train_transform, dataframe=train_df_resampled)
         self.val_dataset = InsectDataset(image_path=self.image_path, transform=self.val_transform, dataframe=val_df)
-        self.test_dataset = InsectDataset(image_path=self.image_path, transform=self.val_transform, dataframe=test_df)
+        self.test_dataset = torchvision.datasets.ImageFolder(root='/cluster/projects/nn10058k/SquidlePlusProject/insects_proj/official_test_images', transform=self.val_transform)
     
     def train_dataloader(self):
         return DataLoader(self.train_dataset, shuffle=True, batch_size=self.batch_size, num_workers=0)
@@ -152,17 +146,20 @@ def log_to_graph(self, value, var, name, global_step):
 class InsectsModel(pl.LightningModule):
     def __init__(self, task, num_classes, model, type, lr=1e-3, w2_decay=1e-5):
         super().__init__()
+        self.accuracy_train_macro = Accuracy(task=task, num_classes=num_classes, average='macro')
         self.f1_score_train = F1Score(task=task, num_classes=num_classes, average = 'none')
         self.recall_train = Recall(task = task, num_classes = num_classes, average = 'none')
         self.precision_train = Precision(task = task, num_classes = num_classes, average = 'none')
         self.accuracy_train = Accuracy(task = task, num_classes=num_classes, average='none')
         self.model_to_use = model
         
+        self.accuracy_val_macro = Accuracy(task=task, num_classes=num_classes, average='macro')
         self.f1_score_val = F1Score(task=task, num_classes=num_classes, average = 'none')
         self.recall_val = Recall(task = task, num_classes = num_classes, average = 'none')
         self.precision_val = Precision(task = task, num_classes = num_classes, average = 'none')
         self.accuracy_val = Accuracy(task = task, num_classes=num_classes, average='none')
         
+        self.accuracy_test_macro = Accuracy(task=task, num_classes=num_classes, average='macro')
         self.f1_score_test = F1Score(task=task, num_classes=num_classes, average = 'none')
         self.recall_test = Recall(task = task, num_classes = num_classes, average = 'none')
         self.precision_test = Precision(task = task, num_classes = num_classes, average = 'none')
@@ -177,11 +174,10 @@ class InsectsModel(pl.LightningModule):
             try:
                 self.model = torch.hub.load('pytorch/vision:v0.10.0', 'inception_v3', pretrained=True)
             except Exception as e:
-                # Fallback when hub is not accessible (e.g., no internet on compute nodes)
                 print(f"Warning: Could not load from hub ({e}). Using alternative model...")
                 from torchvision.models import inception_v3
                 self.model = inception_v3(pretrained=False)
-            self.model.AuxLogits = None # Remove the auxiliary branch to force single output
+            self.model.AuxLogits = None 
             hidden_layers = self.model.fc.in_features
             self.model.fc = nn.Identity()
             self.classifier_head = nn.Linear(hidden_layers, num_classes)
@@ -232,12 +228,16 @@ class InsectsModel(pl.LightningModule):
         for i, class_recall in enumerate(recall_per_class):
             log_to_graph(self, class_recall.item(), f'recall_score_class_{i}', name, self.current_epoch)
 
+        train_accuracy_macro = self.accuracy_train_macro.compute()
+        log_to_graph(self, train_accuracy_macro.item(), 'accuracy_macro', name, self.current_epoch)
+
 
         self.train_loss = []
         self.accuracy_train.reset()
         self.f1_score_train.reset()
         self.precision_train.reset()
         self.recall_train.reset()
+        self.accuracy_train_macro.reset()
 
     def validation_step(self, batch):
         features, target, img_path = batch
@@ -276,12 +276,15 @@ class InsectsModel(pl.LightningModule):
         for i, class_recall in enumerate(recall_per_class):
             log_to_graph(self, class_recall.item(), f'recall_class_{i}', name, self.current_epoch)
 
+        val_macro_accuracy = self.accuracy_val_macro.compute()
+        log_to_graph(self, val_macro_accuracy.item(), 'accuracy_macro', name, self.current_epoch)
+
         self.validation_loss = []
         self.accuracy_val.reset()
         self.f1_score_val.reset()
         self.precision_val.reset()
         self.recall_val.reset()
-
+        self.accuracy_val_macro.reset()
     def test_step(self, batch):
         features, target, img_path = batch
         pred = self(features)
@@ -319,12 +322,14 @@ class InsectsModel(pl.LightningModule):
         for i, class_recall in enumerate(recall_per_class):
             log_to_graph(self, class_recall.item(), f'recall_class_{i}', name, self.current_epoch)
 
+        test_macro_accuracy = self.accuracy_test_macro.compute()
+        log_to_graph(self, test_macro_accuracy.item(), 'accuracy_macro', name, self.current_epoch)
         self.test_loss = []
         self.accuracy_test.reset()
         self.f1_score_test.reset()
         self.precision_test.reset()
         self.recall_test.reset()
-
+        self.accuracy_test_macro.reset()
     def configure_optimizers(self):
         parameters_model = [p for p in self.model.parameters() if p.requires_grad is True]
         parameters_clh = [p for p in self.classifier_head.parameters() if p.requires_grad is True]
@@ -372,6 +377,14 @@ if __name__ == '__main__':
     )
     
     num_classes = 6
-    model = InsectsModel(task='multiclass', num_classes=num_classes, type='CNN_based', model='VGG', lr=0.001, w2_decay=0.01)
+    class_to_idx = {
+        'cladoceramorpha': 0,
+        'copepoda': 1,
+        'leptodora_kindtii': 2,
+        'plant_or_algae': 3,
+        'rotifera': 4,
+        'unidentified_organism': 5
+    }
+    model = InsectsModel(task='multiclass', num_classes=num_classes, type='CNN_based', model='VGG', lr=0.001, w2_decay=0.01, class_to_idx = class_to_idx)
     
     trainer.fit(datamodule=datamodule, model=model)

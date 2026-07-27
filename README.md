@@ -1,4 +1,4 @@
-# Insect Image Dataset Loader
+# Insect Image Project
 
 This project provides a PyTorch `Dataset` implementation for loading and processing insect images with bounding box annotations. 
 
